@@ -4,9 +4,10 @@ import { Icon } from 'semantic-ui-react'
 // import '../App.css';
 
 
-const Header = () => {
+const Header = (props) => {
+
   return (
-    <div class="header">
+    <div className="header">
       <h1 id="my-name">
         ALI REUBENSTONE
       </h1>
@@ -22,7 +23,7 @@ const Header = () => {
             View My Resume
           </a>
         </h4>
-        <span class="social-icons">
+        <span className="social-icons">
           <a href="https://www.linkedin.com/in/alireubenstone/" target="_blank" rel="noopener noreferrer">
             <Icon name="linkedin" size='big' aria-hidden="true" />
           </a>
@@ -32,6 +33,11 @@ const Header = () => {
           <a href="https://medium.com/@alireubenstone" target="_blank" rel="noopener noreferrer">
             <Icon name="medium" size='big' aria-hidden="true" />
           </a>
+        </span>
+        <span className="arrow">
+          <span id="down-arrow" data-scroll="" href="#projects">
+            <Icon name="arrow circle down" size="big"/>
+          </span>
         </span>
       </div>
   )
