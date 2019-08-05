@@ -1,15 +1,17 @@
 /* CUSTOM CSS */
-#myName, #ReactTypingEffect, #headerSpan, #resume {
+#my-name, #react-typing-effect, #resume {
   letter-spacing: 4px;
   text-align: center;
 }
 
-#myName {
+#my-name {
   /* margin-top: 25px; */
+  font-family: 'Questrial', sans-serif;
 }
 
 #resume {
   margin-top: 25px;
+  font-family: 'Questrial', sans-serif;
   /* background-color: red;
   color: white;
   padding: 1em 1.5em;
@@ -17,7 +19,7 @@
   text-transform: uppercase; */
 }
 
-a:link, a:visited {
+#resume a:link, a:visited {
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -26,11 +28,11 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+#resume a:hover, a:active {
   background-color: red;
 }
 
-#header {
+.header {
     min-height: 80vh;
     padding: 5%;
     background-image: linear-gradient(to right, red , pink, yellow);
@@ -43,4 +45,22 @@ a:hover, a:active {
     flex-direction: column;
     justify-content: center;
     position: relative;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  text-align: center;
+  margin-top: 10px;
+  /* display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+.social-icons i {
+    margin-right: 1.0%;
+    margin-left: 1.0%;
+    color: white;
 }
