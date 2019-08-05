@@ -1,11 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import Typing from 'react-typing-animation';
+import ReactTypingEffect from 'react-typing-effect';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>BOBO'S WEBSITE</h1>
+
+    <ReactTypingEffect
+      text={["Hello.", "Bobo"]}
+      eraseDelay={300}
+      speed={100}
+    />
+
+
     </div>
   );
 }
