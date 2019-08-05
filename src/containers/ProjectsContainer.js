@@ -31,11 +31,19 @@ class ProjectsContainer extends React.Component {
             </div>
           </span>
           <p className="description">
-            lsdjfkdjflsjflksjl
+            The easiest way to keep track of all of your personal items during the moving process.
           </p>
           <div className="links">
-            <div color='red'>DEMO</div>
-            <div color='red'>REPO</div>
+            <div>
+              <a href="https://youtu.be/13ej9B7GjmY">
+                DEMO
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/Rexman17/moving_app_frontend">
+                REPO
+              </a>
+            </div>
           </div>
         </div>
 
@@ -48,11 +56,19 @@ class ProjectsContainer extends React.Component {
             </div>
           </span>
           <p className="description">
-            lsdjfkdjflsjflksjl
+            A personalized wish list, complete with item pricing and store locations.
           </p>
           <div className="links">
-            <div color='red'>DEMO</div>
-            <div color='red'>REPO</div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=2dtJhSK0s0o&feature=youtu.be">
+                DEMO
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/Rexman17/Wish-List-React">
+                REPO
+              </a>
+            </div>
           </div>
         </div>
 
@@ -65,11 +81,15 @@ class ProjectsContainer extends React.Component {
             </div>
           </span>
           <p className="description">
-            lsdjfkdjflsjflksjl
+            The best way to create or attend local potlucks and find recipes for your dishes.
           </p>
           <div className="links">
-            <div color='red'>DEMO</div>
-            <div color='red'>REPO</div>
+            <div>
+              <a href="https://youtu.be/Phvk9ld_U5I">DEMO</a>
+            </div>
+            <div>
+              <a href="https://github.com/Veraprot/Potluck">REPO</a>
+            </div>
           </div>
         </div>
       </div>
