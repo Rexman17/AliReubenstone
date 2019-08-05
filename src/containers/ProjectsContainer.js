@@ -35,12 +35,12 @@ class ProjectsContainer extends React.Component {
           </p>
           <div className="links">
             <div>
-              <a href="https://youtu.be/13ej9B7GjmY">
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/13ej9B7GjmY">
                 DEMO
               </a>
             </div>
             <div>
-              <a href="https://github.com/Rexman17/moving_app_frontend">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rexman17/moving_app_frontend">
                 REPO
               </a>
             </div>
@@ -49,9 +49,15 @@ class ProjectsContainer extends React.Component {
 
         <div className="project-container">
           <span className="project-header">
-            <div className="title">TITLE</div>
+            <div className="title">My Wish List</div>
             <div className="frameworks">
-              <p>Node.js</p>
+              <p>React</p>
+              <p>●</p>
+              <p>Rails</p>
+              <p>●</p>
+              <p>React Router</p>
+              <p>●</p>
+              <p>Google React Maps</p>
               <p>●</p>
             </div>
           </span>
@@ -60,12 +66,12 @@ class ProjectsContainer extends React.Component {
           </p>
           <div className="links">
             <div>
-              <a href="https://www.youtube.com/watch?v=2dtJhSK0s0o&feature=youtu.be">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=2dtJhSK0s0o&feature=youtu.be">
                 DEMO
               </a>
             </div>
             <div>
-              <a href="https://github.com/Rexman17/Wish-List-React">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rexman17/Wish-List-React">
                 REPO
               </a>
             </div>
@@ -74,10 +80,13 @@ class ProjectsContainer extends React.Component {
 
         <div className="project-container">
           <span className="project-header">
-            <div className="title">TITLE</div>
+            <div className="title">Chipotluck</div>
             <div className="frameworks">
-              <p>Node.js</p>
+              <p>Rails</p>
               <p>●</p>
+              <p>PostgreSQL</p>
+              <p>●</p>
+              <p>Recipe Puppy API</p>
             </div>
           </span>
           <p className="description">
@@ -85,13 +94,19 @@ class ProjectsContainer extends React.Component {
           </p>
           <div className="links">
             <div>
-              <a href="https://youtu.be/Phvk9ld_U5I">DEMO</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Phvk9ld_U5I">DEMO</a>
             </div>
             <div>
-              <a href="https://github.com/Veraprot/Potluck">REPO</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Veraprot/Potluck">REPO</a>
             </div>
           </div>
         </div>
+      </div>
+
+      <div id="blogs">
+        <h2 id="blogs-title">
+          BLOGS
+        </h2>
       </div>
 
     </div>
