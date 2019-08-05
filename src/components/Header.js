@@ -7,18 +7,6 @@ import ProjectsContainer from '../containers/ProjectsContainer'
 
 class Header extends React.Component {
 
-  state = {
-    arrowClicked: false
-  }
-
-  clickArrow = () => {
-    console.log('clicked meee');
-  }
-
-  // goto($hashtag) {
-  //    document.location = "index.html#" + $hashtag;
-  //  }
-  // "goto('aboutus')"
 
   render () {
     return (
@@ -35,7 +23,7 @@ class Header extends React.Component {
             />
           </div>
             <h4 id="resume">
-              <a class="icon" href="https://drive.google.com/file/d/1gDm3SgYmzSwBVx8oMKHOHb0bHmZWYBuV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a className="icon" href="https://drive.google.com/file/d/1gDm3SgYmzSwBVx8oMKHOHb0bHmZWYBuV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 View My Resume
               </a>
             </h4>

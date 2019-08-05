@@ -11,15 +11,17 @@
 
 #projects-title {
   font-family: 'Questrial', sans-serif;
+  font-weight: bold;
   /* text-align: left;
   margin: 10px; */
   display: block;
-  font-size: 1.5em;
+  font-size: 2.0em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #resume {
@@ -63,7 +65,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 90vh;
+  height: 100vh;
 }
 
 .container {
@@ -175,3 +177,84 @@
   padding: 15px;
   border-radius: 4px;
 } */
+
+/* PROJECTS STYLING */
+.container {
+  margin: 5%;
+  background-color: white;
+}
+
+.title {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.projects > div:first-child {
+  margin-top: 5px;
+}
+
+div.project-container {
+  margin-bottom: 2%;
+  margin: 20px 0;
+}
+
+.project-header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.frameworks {
+  text-decoration: none;
+  padding-left: 15px;
+  color: #4b606d;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Questrial', sans-serif;
+}
+
+.frameworks p {
+  margin: 2px;
+  line-height: 1.4285em;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.project-header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.links > div {
+  border: 1px solid rgba(65, 89, 246, 1);
+  border-radius: 16px;
+  color: rgba(65, 89, 246, 1);
+  padding: 0px 20px;
+  height: 24px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}

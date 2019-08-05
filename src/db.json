@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "title": "Packing Pal",
+      "technologies":["React", "Redux", "Rails", "Cloudinary API", "JWT Auth", "Materialize CSS"],
+      "description": "The easiest way to keep track of all of your personal items during the moving process.",
+      "repo": "https://github.com/Rexman17/moving_app_frontend",
+      "demo": "https://youtu.be/13ej9B7GjmY"
+    },
+    {
+      "title": "My Wish List",
+      "technologies":["React", "Rails", "React Router", "Google React Maps"],
+      "description": "A personalized wish list, complete with item pricing and store locations.",
+      "repo": "https://github.com/Rexman17/Wish-List-React",
+      "demo": "https://www.youtube.com/watch?v=2dtJhSK0s0o&feature=youtu.be"
+    },
+    {
+      "title": "Chipotluck",
+      "technologies":["Rails", "PostgreSQL", "Recipe Puppy API"],
+      "description": "The best way to create or attend local potlucks and find recipes for your dishes.",
+      "repo": "https://github.com/Veraprot/Potluck",
+      "demo": "https://youtu.be/Phvk9ld_U5I"
+    }
+
+  ]
+}
