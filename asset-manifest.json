@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AliReubenstone/static/css/main.7171a7cb.chunk.css",
+    "main.css": "/AliReubenstone/static/css/main.7f08c857.chunk.css",
     "main.js": "/AliReubenstone/static/js/main.600ef275.chunk.js",
     "main.js.map": "/AliReubenstone/static/js/main.600ef275.chunk.js.map",
     "runtime~main.js": "/AliReubenstone/static/js/runtime~main.8dc553bc.js",
@@ -8,8 +8,8 @@
     "static/js/2.f076a8de.chunk.js": "/AliReubenstone/static/js/2.f076a8de.chunk.js",
     "static/js/2.f076a8de.chunk.js.map": "/AliReubenstone/static/js/2.f076a8de.chunk.js.map",
     "index.html": "/AliReubenstone/index.html",
-    "precache-manifest.ff5542a30ec097cebf16e24609b3d663.js": "/AliReubenstone/precache-manifest.ff5542a30ec097cebf16e24609b3d663.js",
+    "precache-manifest.991dd50ed9ec2500498cb4b4bf4eb0ea.js": "/AliReubenstone/precache-manifest.991dd50ed9ec2500498cb4b4bf4eb0ea.js",
     "service-worker.js": "/AliReubenstone/service-worker.js",
-    "static/css/main.7171a7cb.chunk.css.map": "/AliReubenstone/static/css/main.7171a7cb.chunk.css.map"
+    "static/css/main.7f08c857.chunk.css.map": "/AliReubenstone/static/css/main.7f08c857.chunk.css.map"
   }
 }
