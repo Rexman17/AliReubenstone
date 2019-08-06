@@ -107,6 +107,7 @@ class ProjectsContainer extends React.Component {
         <h2 id="blogs-title">
           BLOGS
         </h2>
+        Coming soon...
       </div>
 
     </div>
