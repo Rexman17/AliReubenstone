@@ -9,7 +9,7 @@
   font-family: 'Questrial', sans-serif;
 }
 
-#projects-title, #blogs-title {
+#projects-title, #blogs-title, #skills-title {
   font-family: 'Questrial', sans-serif;
   font-weight: bold;
   /* text-align: left;
@@ -295,4 +295,22 @@ div.project-container {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   font-size: 16px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills > div {
+  width: 20%;
+  padding-right: 2.5%;
+  margin-right: 2.5%;
+  border-right: 2px solid rgba(168, 168, 168, .3);
+}
+
+.skill-type, .school-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bolder;
+  color: rgba(65, 89, 246, 1);
+  font-size: 1.2rem;
 }
