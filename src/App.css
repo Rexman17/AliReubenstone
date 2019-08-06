@@ -314,3 +314,17 @@ div.project-container {
   color: rgba(65, 89, 246, 1);
   font-size: 1.2rem;
 }
+
+footer {
+  /* background: rgba(65, 89, 246, 1); */
+  background: linear-gradient(#FA4F4F, white);
+  background-size: 400% 400%;
+  color: white;
+  text-align: center;
+  padding: 24px;
+}
+
+.footer-icons {
+  font-size: 16px;
+  margin-bottom: 12px;
+}

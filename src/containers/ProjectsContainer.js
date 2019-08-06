@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectsList from '../components/ProjectsList'
 import Blogs from '../components/Blogs'
 import Skills from '../components/Skills'
+import Footer from '../components/Footer'
 // import { Button } from 'semantic-ui-react'
 
 class ProjectsContainer extends React.Component {
@@ -35,6 +36,8 @@ class ProjectsContainer extends React.Component {
         <Skills />
 
       </div>
+
+      <Footer />
 
     </div>
 
