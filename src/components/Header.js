@@ -18,7 +18,7 @@ class Header extends React.Component {
           <div id="react-typing-effect">
             <ReactTypingEffect
               text={["Full Stack Web Developer", "Former Actor", "Finance Grad", "Emory Alum", "Improv Lover"]}
-              eraseDelay={100}
+              eraseDelay={700}
               speed={100}
             />
           </div>

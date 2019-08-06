@@ -21,7 +21,11 @@ class ProjectsContainer extends React.Component {
         <h2 id="blogs-title">
           BLOGS
         </h2>
+<<<<<<< HEAD
         <Blogs />
+=======
+        Coming soon...
+>>>>>>> 5413675d662a207566f35b1aea9a909cb00ed770
       </div>
 
     </div>
