@@ -328,3 +328,8 @@ footer {
   font-size: 16px;
   margin-bottom: 12px;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
