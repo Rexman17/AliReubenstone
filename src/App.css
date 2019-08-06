@@ -22,6 +22,7 @@
   margin-inline-end: 0px;
   font-weight: bold;
   letter-spacing: 2px;
+  margin-top: 40px;
 }
 
 #resume {
@@ -224,6 +225,7 @@ div.project-container {
 .frameworks p {
   margin: 2px;
   line-height: 1.4285em;
+  font-size: 15px;
 }
 
 *, :after, :before {
@@ -269,4 +271,28 @@ div.project-container {
 .links > div > a:hover {
   color: gray;
   background-color: white;
+}
+
+.blog, .skills, .projects, .experience, .education {
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
+
+.blog-posts {
+  margin-bottom: 1%;
+  font-size: 1rem;
+}
+
+.blog :last-child {
+  margin-bottom: 0%;
+}
+
+.blog-posts > a {
+  text-decoration: none;
+  margin-left: 1.5%;
+  /* color: #FF4343; */
+  color: rgba(65, 89, 246, 1);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  font-size: 16px;
 }
