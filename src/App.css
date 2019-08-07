@@ -247,7 +247,7 @@ div.project-container {
 }
 
 .links > div {
-  border: 1px solid rgba(65, 89, 246, 1);
+  border: 1px solid #ea0606;
   border-radius: 16px;
   /* color: rgba(65, 89, 246, 1); */
   padding: 0px 20px;
@@ -306,8 +306,11 @@ div.project-container {
 .skill-type, .school-name {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bolder;
-  color: rgba(65, 89, 246, 1);
+  /* color: rgb(246, 76, 65); */
   font-size: 1.2rem;
+  background: -webkit-linear-gradient(red, rgb(246, 76, 65), grey);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
 footer {
