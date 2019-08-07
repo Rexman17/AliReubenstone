@@ -11,17 +11,17 @@ class ProjectsList extends React.Component {
           <span className="project-header">
             <div className="title">Packing Pal</div>
             <div className="frameworks">
-              <p>React</p>
-              <p>●</p>
-              <p>Redux</p>
-              <p>●</p>
-              <p>Rails</p>
-              <p>●</p>
-              <p>Cloudinary API</p>
-              <p>●</p>
-              <p>JWT Auth</p>
-              <p>●</p>
-              <p>Materialize CSS</p>
+              <span>React</span>
+              <span className="bullet">●</span>
+              <span>Redux</span>
+              <span className="bullet">●</span>
+              <span>Rails</span>
+              <span className="bullet">●</span>
+              <span>Cloudinary API</span>
+              <span className="bullet">●</span>
+              <span>JWT Auth</span>
+              <span className="bullet">●</span>
+              <span>Materialize CSS</span>
             </div>
           </span>
           <p className="description">
@@ -45,13 +45,13 @@ class ProjectsList extends React.Component {
           <span className="project-header">
             <div className="title">My Wish List</div>
             <div className="frameworks">
-              <p>React</p>
-              <p>●</p>
-              <p>Rails</p>
-              <p>●</p>
-              <p>React Router</p>
-              <p>●</p>
-              <p>Google React Maps</p>
+              <span>React</span>
+              <span className="bullet">●</span>
+              <span>Rails</span>
+              <span className="bullet">●</span>
+              <span>React Router</span>
+              <span className="bullet">●</span>
+              <span>Google React Maps</span>
             </div>
           </span>
           <p className="description">
@@ -75,11 +75,11 @@ class ProjectsList extends React.Component {
           <span className="project-header">
             <div className="title">Chipotluck</div>
             <div className="frameworks">
-              <p>Rails</p>
-              <p>●</p>
-              <p>PostgreSQL</p>
-              <p>●</p>
-              <p>Recipe Puppy API</p>
+              <span>Rails</span>
+              <span className="bullet">●</span>
+              <span>PostgreSQL</span>
+              <span className="bullet">●</span>
+              <span>Recipe Puppy API</span>
             </div>
           </span>
           <p className="description">

@@ -44,9 +44,9 @@ class Header extends React.Component {
               </a>
             </div>
            </div>
-           <div>
+
             <ProjectsContainer />
-           </div>
+        
           </div>
     )
   }
