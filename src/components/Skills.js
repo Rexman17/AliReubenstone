@@ -18,7 +18,7 @@ const Skills = () => {
       </div>
 
       <div className="s2">
-        <p className="skill" className="skill-type">
+        <p className="skill-type">
           Libraries & Frameworks
         </p>
         <p className="skill">React</p>

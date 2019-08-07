@@ -75,7 +75,8 @@ body {
 }
 
 .container {
-  margin: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
   background-color: white;
   overflow: auto;
 }
@@ -191,10 +192,7 @@ body {
 } */
 
 /* PROJECTS STYLING */
-.container {
-  margin: 5%;
-  background-color: white;
-}
+
 
 .title {
   font-family: 'Questrial', sans-serif;
@@ -344,7 +342,7 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 469px) {
+/* @media screen and (min-width: 469px) {
   .skill-type, .school-name {
     font-size: 10px;
   }
@@ -372,4 +370,4 @@ a {
   .blog-posts span {
     font-size: 12px;
   }
-}
+} */
