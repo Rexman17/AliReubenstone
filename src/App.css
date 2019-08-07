@@ -262,15 +262,10 @@ div.project-container {
 }
 
 .links > div > a {
-  text-decoration: none;
-  color: rgba(65, 89, 246, 1);
-  font-size: 1rem;
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-.links > div > a:hover {
-  color: gray;
-  background-color: white;
+    text-decoration: none;
+    color: #ea0606;
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .blog, .skills, .projects, .experience, .education {
@@ -291,7 +286,7 @@ div.project-container {
   text-decoration: none;
   margin-left: 1.5%;
   /* color: #FF4343; */
-  color: rgba(65, 89, 246, 1);
+  color: #4b606d;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   font-size: 16px;

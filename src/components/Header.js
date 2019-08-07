@@ -29,7 +29,7 @@ class Header extends React.Component {
             </h4>
             <span className="social-icons">
               <a href="https://www.linkedin.com/in/alireubenstone/" target="_blank" rel="noopener noreferrer">
-                <Icon name="linkedin" size='big' aria-hidden="true" />
+                <Icon color="white" name="linkedin" size='big' aria-hidden="true" />
               </a>
               <a href="https://github.com/Rexman17" target="_blank" rel="noopener noreferrer">
                 <Icon name="github" size='big' aria-hidden="true" />
