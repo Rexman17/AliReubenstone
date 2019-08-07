@@ -23,7 +23,7 @@ class Header extends React.Component {
             />
           </div>
             <h4 id="resume">
-              <a className="icon" href="https://drive.google.com/file/d/1gDm3SgYmzSwBVx8oMKHOHb0bHmZWYBuV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a className="icon" href="https://docs.google.com/presentation/d/1LprPlhPhUB9ci3bIXt9koApaOgouZueh4dAbw8QoB7M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 View My Resume
               </a>
             </h4>
@@ -46,7 +46,7 @@ class Header extends React.Component {
            </div>
 
             <ProjectsContainer />
-        
+
           </div>
     )
   }
