@@ -344,6 +344,32 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media () {
+@media screen and (min-width: 469px) {
+  .skill-type, .school-name {
+    font-size: 10px;
+  }
 
+  .skill-type {
+    font-size: 10px;
+  }
+
+  .skill {
+    font-size: 9px;
+  }
+
+  #my-name {
+    font-size: 20px;
+  }
+
+  #projects-title, #blogs-title, #skills-title, .title {
+    font-size: 1.10em;
+  }
+
+  .blog-posts a {
+    font-size: 12px;
+  }
+
+  .blog-posts span {
+    font-size: 12px;
+  }
 }
