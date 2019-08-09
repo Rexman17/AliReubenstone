@@ -1,4 +1,8 @@
 /* Style for iphone first */
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   min-height: 80vh;
   padding: 5%;
@@ -194,4 +198,113 @@ footer {
 .footer-icons {
   font-size: 16px;
   margin-bottom: 12px;
+}
+
+/* MEDIA QUERIES FOR IPAD AND DESKTOP SO FAR */
+/* ipad */
+@media only screen and (min-width: 768px) {
+  .skills {
+    display: flex;
+  }
+
+  .skills > div {
+    width: 20%;
+    padding-right: 2.5%;
+    margin-right: 2.5%;
+    border-right: 2px solid rgba(168, 168, 168, .3);
+  }
+
+  .skill-type, .school-name {
+    ‘font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    /* color: rgb(246, 76, 65); */
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(red, rgb(246, 76, 65), grey);
+   -webkit-background-clip: text;
+   -’webkit-text-fill-color: transparent;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+
+  #my-name {
+    font-size: 35px;
+  }
+
+  #resume a:link, a:visited {
+    font-size: 15px;
+  }
+
+  #projects-title, #blogs-title, #skills-title {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .project-header {
+    display: flex;
+  }
+
+  .frameworks {
+    font-size: 1.2em;
+  }
+
+  .title {
+    margin-right: 15px;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    /* font-style: italic; */
+  }
+
+  .blog-posts a {
+    font-size: 1.3rem;
+  }
+
+  .blog-posts {
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+  }
+
+  .links {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .links a:link, a:visited {
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .skill-type {
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+  }
+
+  .s1 .skill, .s2 .skill, .s3 .skill, .s4 .skill {
+    margin: auto;
+    line-height: 1.4285em;
+    font-size: medium;
+  }
+
+  #projects-title, #blogs-title, #skills-title {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    display: block;
+    font-size: 1.7em;
+    margin-block-start: 0.83em;
+    letter-spacing: 2px;
+  }
+
+  .footer-icons {
+    font-size: 35px;
+  }
+
 }
