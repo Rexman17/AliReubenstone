@@ -132,15 +132,66 @@
 .links a:link, a:visited {
   background-color: #f44336;
   color: white;
-  padding: 8px 10px;
+  padding: 4px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
-  border-radius: 12px;
+  font-size: 11px;
+  border-radius: 5px;
   margin: 0px 2px;
 }
 
 .project-container {
   margin-bottom: 15px;
+}
+
+.blog-posts {
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+.blog :last-child {
+  margin-bottom: 0%;
+}
+
+.blog-posts > a {
+  text-decoration: none;
+  margin-left: 1.5%;
+  /* color: #FF4343; */
+  color: #4b606d;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.skill-type, .school-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bolder;
+  /* color: rgb(246, 76, 65); */
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(red, rgb(246, 76, 65), grey);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ margin-bottom: 0px;
+}
+
+.s1 .skill, .s2 .skill, .s3 .skill, .s4 .skill {
+  margin: auto;
+  line-height: 1.4285em;
+  font-size: small;
+}
+
+footer {
+  /* background: rgba(65, 89, 246, 1); */
+  background: linear-gradient(#FA4F4F, white);
+  background-size: 400% 400%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.footer-icons {
+  font-size: 16px;
+  margin-bottom: 12px;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ProjectsList from '../components/ProjectsList'
 import Blogs from '../components/Blogs'
 import Skills from '../components/Skills'
@@ -9,38 +9,39 @@ class ProjectsContainer extends React.Component {
 
   render() {
    return (
-     <div className="container">
+     <Fragment>
+       <div className="container">
 
-      <h2 id="projects-title">
-        PROJECTS
-      </h2>
-
-
-        <ProjectsList />
-
-
-      <div id="blogs">
-        <h2 id="blogs-title">
-          BLOGS
+        <h2 id="projects-title">
+          PROJECTS
         </h2>
 
-        <Blogs />
+
+          <ProjectsList />
+
+
+        <div id="blogs">
+          <h2 id="blogs-title">
+            BLOGS
+          </h2>
+
+          <Blogs />
+
+        </div>
+
+        <div id="skills">
+          <h2 id="skills-title">
+            SKILLS
+          </h2>
+
+          <Skills />
+
+        </div>
+
 
       </div>
-
-      <div id="skills">
-        <h2 id="skills-title">
-          SKILLS
-        </h2>
-
-        <Skills />
-
-      </div>
-
       <Footer />
-
-    </div>
-
+    </Fragment>
    )
  }
 }
