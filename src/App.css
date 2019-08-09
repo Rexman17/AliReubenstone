@@ -7,6 +7,10 @@ html {
   color: white;
 }
 
+.footer-icons a {
+  color: white;
+}
+
 .header {
   min-height: 80vh;
   padding: 5%;
