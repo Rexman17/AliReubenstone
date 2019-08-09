@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#down-arrow a {
+  color: white;
+}
+
 .header {
   min-height: 80vh;
   padding: 5%;

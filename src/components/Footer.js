@@ -9,13 +9,13 @@ const Footer = () => {
       <footer>
         <span className="footer-icons">
           <a href="https://www.linkedin.com/in/alireubenstone/" target="_blank" rel="noopener noreferrer">
-            <Icon color="white" name="linkedin" aria-hidden="true" size="small" />
+            <Icon name="linkedin" aria-hidden="true" size="small" />
           </a>
           <a href="https://github.com/Rexman17" target="_blank" rel="noopener noreferrer">
-            <Icon color="white" name="github" size='small' aria-hidden="true" />
+            <Icon name="github" size='small' aria-hidden="true" />
           </a>
           <a href="https://medium.com/@alireubenstone" target="_blank" rel="noopener noreferrer">
-            <Icon color="white" name="medium" size='small' aria-hidden="true" />
+            <Icon name="medium" size='small' aria-hidden="true" />
           </a>
         </span>
       </footer>
