@@ -11,7 +11,7 @@ class ProjectsList extends React.Component {
           <span className="project-header">
             <div className="title">Packing Pal</div>
             <div className="frameworks">
-              <span>React</span>
+              <span>React & React Router</span>
               <span className="bullet">●</span>
               <span>Redux</span>
               <span className="bullet">●</span>
@@ -35,6 +35,36 @@ class ProjectsList extends React.Component {
             </div>
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rexman17/moving_app_frontend">
+                REPO
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-container">
+          <span className="project-header">
+            <div className="title">Nutritionist Website</div>
+            <div className="frameworks">
+              <span>React</span>
+              <span className="bullet">●</span>
+              <span>React Router</span>
+              <span className="bullet">●</span>
+              <span>Custom CSS</span>
+              <span className="bullet">●</span>
+              <span>Media Queries</span>
+            </div>
+          </span>
+          <p className="description">
+            Template for a nutritionist's website, created to get more practice with React, React Router, Custom CSS and Media Queries.
+          </p>
+          <div className="links">
+            <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/V-W0GQfbjXI">
+                DEMO
+              </a>
+            </div>
+            <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rexman17/Nutritionist-Website">
                 REPO
               </a>
             </div>
