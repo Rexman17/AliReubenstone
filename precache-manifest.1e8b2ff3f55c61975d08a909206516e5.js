@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffe1a033751eb70bc0e75ae71783c1e0",
+    "revision": "3e1e17d66ddc398ab2e24cff1f9e769a",
     "url": "/AliReubenstone/index.html"
   },
   {
-    "revision": "73017155e6e1eba2b5fa",
+    "revision": "a4447848e98465bf57be",
     "url": "/AliReubenstone/static/css/main.6698bc87.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AliReubenstone/static/js/2.f076a8de.chunk.js"
   },
   {
-    "revision": "73017155e6e1eba2b5fa",
-    "url": "/AliReubenstone/static/js/main.24001a9c.chunk.js"
+    "revision": "a4447848e98465bf57be",
+    "url": "/AliReubenstone/static/js/main.a52b26e7.chunk.js"
   },
   {
     "revision": "472b03e8eddd101c4f65",
