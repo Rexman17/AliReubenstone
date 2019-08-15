@@ -13,7 +13,7 @@
     "react-typing-effect": "^2.0.2",
     "semantic-ui-react": "^0.87.3"
   },
-  "homepage": "https://rexman17.github.io/AliReubenstone/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -16,11 +16,8 @@ class Header extends React.Component {
             ALI REUBENSTONE
           </h1>
           <div id="react-typing-effect">
-            <ReactTypingEffect
-              text={["Full Stack Web Developer", "Former Actor", "Finance Grad", "Emory Alum", "Improv Lover"]}
-              eraseDelay={700}
-              speed={100}
-            />
+
+            | Full Stack Web Developer| | Former Actor | | Finance Grad | | Emory Alum| | Improv Lover | 
           </div>
             <h4 id="resume">
               <a className="icon" href="https://drive.google.com/file/d/18Cv071VT-1UaJ6P9WooiLZFz1GxrWzfS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
@@ -54,3 +51,9 @@ class Header extends React.Component {
 }
 
 export default Header
+
+// <ReactTypingEffect
+//   text={["Full Stack Web Developer", "Former Actor", "Finance Grad", "Emory Alum", "Improv Lover"]}
+//   eraseDelay={700}
+//   speed={100}
+// />
