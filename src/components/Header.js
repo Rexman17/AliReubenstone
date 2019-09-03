@@ -14,7 +14,7 @@ class Header extends React.Component {
         <div className="header">
 
           <div id="me-div">
-            <img id="me" src="DSC_6062.jpg" alt="ali reubenstone"/>
+            <img id="me" src="https://res.cloudinary.com/flatiron-school/image/upload/v1567526549/profile%20pic/imageedit_4_5537019871.jpg" alt="ali reubenstone"/>
           </div>
 
           <h1 id="my-name">
