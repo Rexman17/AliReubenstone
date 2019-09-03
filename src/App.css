@@ -21,7 +21,7 @@ html {
   height: auto;
   border-radius: 0.3em;
   transform: rotate(270deg);
-  margin-bottom: 6%;
+  margin-bottom: 6vh;
   border: solid;
 }
 
@@ -49,6 +49,7 @@ html {
   letter-spacing: 4px;
   text-align: center;
   color: white;
+  /* margin-top: 2vh; */
 }
 
 #my-name {
