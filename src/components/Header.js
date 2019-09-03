@@ -27,7 +27,7 @@ class Header extends React.Component {
           />
           </div>
             <h4 id="resume">
-              <a className="icon" href="https://drive.google.com/file/d/109onZ9ZPt8ZBxeJzuDWuF20I776b8_a0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a className="icon" href="https://drive.google.com/file/d/1PIrJb_RZGdzjnj1luE0cDUihNUeNR6gS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 View My Resume
               </a>
             </h4>
