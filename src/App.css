@@ -11,6 +11,19 @@ html {
   color: white;
 }
 
+#me-div {
+  text-align: center;
+
+}
+
+#me {
+  width: 20%;
+  height: auto;
+  border-radius: 0.3em;
+  transform: rotate(270deg);
+  margin-bottom: 6%;
+}
+
 .header {
   min-height: 80vh;
   padding: 5%;

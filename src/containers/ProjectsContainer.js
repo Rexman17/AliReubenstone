@@ -20,6 +20,7 @@ class ProjectsContainer extends React.Component {
           <ProjectsList />
 
 
+
         <div id="blogs">
           <h2 id="blogs-title">
             BLOGS

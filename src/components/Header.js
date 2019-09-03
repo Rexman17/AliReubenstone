@@ -12,9 +12,15 @@ class Header extends React.Component {
     return (
       <div>
         <div className="header">
+
+          <div id="me-div">
+            <img id="me" src="DSC_6062.jpg" alt="ali reubenstone"/>
+          </div>
+
           <h1 id="my-name">
             ALI REUBENSTONE
           </h1>
+
           <div id="react-typing-effect">
           <ReactTypingEffect
             text={["Full Stack Web Developer", "Former Actor", "Finance Grad", "Emory Alum", "Improv Lover"]}
@@ -45,7 +51,7 @@ class Header extends React.Component {
             </div>
            </div>
 
-            <ProjectsContainer />
+          <ProjectsContainer />
 
           </div>
     )
